@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Tranquil Guesthouse</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:lightblue;
+        }
+        header {
+            background: url('background-image.jpg') no-repeat center center/cover; /* Change to your background image */
+            height: 60vh;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transitlightblue urlcolor 0.3s;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .welcome, .amenities, .gallery, .contact {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            padding: 20px;
+        }
+        .amenities ul {
+            list-style: none;
+            padding: 0;
+        }
+        .amenities li {
+            background: #f9f9f9;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .gallery {
+            text-align: center;
+        }
+        .gallery img {
+            width: 18%; /* Adjust width to fit 5 images in a row */
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Tranquil Guesthouse</h1>
+    <p>Your Perfect Getaway Awaits</p>
+    <nav>
+        <a href="#welcome">Home</a>
+        <a href="About Us.html">About Us</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="Contact Us.html">Contact Us</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="welcome" class="welcome">
+        <h2><i>Your Home Away From Home</i></h2>
+        <p>Experience comfort and tranquility at our guesthouse. Nestled in the heart of nature, we offer a perfect getaway for travelers seeking relaxation and adventure.</p>
+    </section>
+
+    <section id="amenities" class="amenities">
+        <h2>Amenities</h2>
+        <ul>
+            <li>Free Wi-Fi</li>
+            <li>Complimentary Breakfast</li>
+            <li>Swimming Pool</li>
+            <li>24/7 Reception</li>
+            <li>Room Service</li>
+            <li>Guided Tours</li>
+        </ul>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <p>Check out some of our beautiful rooms and surroundings:</p>
+        <img src="image3.webp" alt="Room 1"> <!-- Replace with your image -->
+        <img src="image2.jpg" alt="Room 2"> <!-- Replace with your image -->
+        <img src="image3.webp" alt="Room 3"> <!-- Replace with your image -->
+        <img src="image4.jpg" alt="View 1"> <!-- Replace with your image -->
+        
